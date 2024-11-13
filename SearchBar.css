@@ -1,0 +1,105 @@
+
+body {
+  background-image: linear-gradient(rgba(0, 8, 51, 0.8), rgba(0, 8, 51, 0.8)), url(art2/Gemini_Generated_Image_5n9nds5n9nds5n9n.jpg);
+  background-size: cover;
+}
+
+h1.title1 {
+  display: inline-block;
+  color: snow;
+  font-size: 45px;
+  letter-spacing: 1px;
+  background: rgba(7, 1, 27, 0.3);
+  border: none;
+  border-radius: 50%;
+}
+
+p.para1, p.para2 {
+  color: snow;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.para1{
+  box-sizing: content-box 1px black;
+  display: inline-block;
+  border-radius: 60px 80px;
+background-color:  rgba(30, 1, 104, 0.226);
+padding-top: 20px;
+padding-bottom: 20px;
+-webkit-text-stroke: black 0.3px;
+text-shadow: black 100%;
+}
+
+div.Header1{
+  display: block;
+  text-align: center;
+}
+div.Header2 {
+  display: block;
+text-align: center;
+}
+h2.title2 {
+  display: inline-block;
+  font-size: 30px;
+  color: rgb(163, 192, 0);
+  background: rgba(7, 1, 26, 0.3);
+  border: none;
+  border-radius: 50%;
+}
+div.MyShorts {
+  display: inline-block;
+  margin: 2px;
+ 
+  div.CodingShort1 {
+  text-align: center;
+  margin: 0;
+  margin-left: 18px;
+  }
+  div.CodingShort2 {
+    text-align: center;
+    margin: 0;
+  }
+  div.CodingShort3 {
+    text-align: center;
+    margin: 0;
+  }
+  div.CodingShort4 {
+    text-align: center;
+    margin: 0;
+  }
+
+}
+
+@Media screen and (max-width: 1100px) {
+  div.MyShorts {
+    display: block;
+    background: transparent;
+    text-align: center;
+    div.CodingShort1 {
+      margin-right: 15px;
+    }
+  }
+}
+
+
+div.bottom-buttons {
+  display: flex;
+  gap: 2px;
+   
+  div.GitHub {
+    display: inline-block;
+    box-shadow: 2px;
+
+    .div.GitHub:hover {
+      background-color: transparent;
+    }
+  }
+
+  div.Reddit {
+    display: inline-block;
+  }
+ }
+
+
+a.link {color: snow;}
+a.link:hover {cursor: pointer;}

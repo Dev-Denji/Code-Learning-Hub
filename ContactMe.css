@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New';
+    background: linear-gradient(#3e0368ce, #800421b2) ;
+}
+
+h2 {
+    color: darkred;
+font-size: xx-large;}
+
+#UrEmail {
+    color: black;
+    align-items: center;
+background-color: rgb(255, 255, 255);}
+
+#Email {
+    color: black;
+background-color: rgb(255, 255, 255);}
+
+#Message {
+    color: black;
+    align-items: center;
+background-color: rgb(255, 255, 255);}
+
+#line1 {color: rgb(187, 255, 0);}
+
+#ContactMe {
+    color: rgba(72, 255, 0, 0.808);
+font-family: Verdana;
+font-weight: bold;
+}
+
+
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.contact-left {display: flex;
+flex-direction: column;
+align-items: start;
+gap: 5px;
+}
+
+.contact-left-title h2 {
+    font-weight: 600;
+    color: rgb(123, 255, 0);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #07cc00b2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: darkorange;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+height: 150px;
+padding-top: 15px;
+border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid rgb(255, 0, 179);
+}
+
+.contact-inputs::placeholder {
+    color: #a9a9a9;
+}
+
+.contact-left button {
+    display:flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: larger;
+    color: rgba(9, 1, 12, 0.877);
+    font-weight: bolder;
+    gap: 15px;
+    border: auto;
+    border-radius: 50px;
+    background: linear-gradient(rgba(187, 255, 0, 0.637), rgb(255, 0, 187));
+    cursor: pointer;
+}
+
+.contact-right img {
+    width: 500px;
+}
+
+.contact-left button img {
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+
+@media (max-width: 950px) {
+    
+.contact-inputs{
+    width:80vw;
+}
+.contact-right{
+    display: none;
+}
+.contact-left {align-items: center;
+}
+#line1 {align-items: center;
+}
+#ContactMe {align-items: center;
+}
+}
+
+
+
+
+
+
