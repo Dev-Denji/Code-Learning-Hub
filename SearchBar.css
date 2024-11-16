@@ -21,17 +21,14 @@ p.para1, p.para2 {
   font-size: 20px;
   letter-spacing: 0.5px;
   box-shadow: 10px 10px 10px black;
-}
-.para1{
   box-sizing: content-box 1px black;
   display: inline-block;
   border-radius: 60px 80px;
   background: rgba(57, 1, 59, 0.404);
-padding-top: 20px;
-padding-bottom: 20px;
--webkit-text-stroke: black 0.3px;
-text-shadow: black 100%;
-
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-text-stroke: black 0.3px;
+  text-shadow: black 100%;
 }
 
 
@@ -88,26 +85,32 @@ div.MyShorts {
     }
   }
 }
+p.bottom_buttons {
+  text-align: center;
+}
 
 div.LINK-buttons {
-  display: flex;
+text-align: center;
+
 }
 
 .GitHub {
-  display: absolute;
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 50px; 
-  width: 100px;
   border-radius: 25px;
   background: linear-gradient(green, black); 
   color: snow;
   font-size: 20px;
-  margin-left: 25px;
   margin-top: 10px;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, color 0.3s, padding 1s;
 }
 .GitHub:hover {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 background:linear-gradient(black, green);
 color: yellow;
 }
@@ -116,98 +119,140 @@ color: yellow;
 }
 
 .ContactMe {
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 50px; 
-  width: 100px;
-  max-width: 1100px;
   border-radius: 25px;
   background: linear-gradient(red , black);
   color: snow;
   font-size: 20px;
-  margin-left: 1075px;
   margin-top: 10px;
-  transition: 0.3s;
+  transition: 0.3s, padding 1s;
 }
 .ContactMe:hover {
   background: linear-gradient(black,red);
   color: yellow;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .ContactMe:active {
   opacity: 0.5;
 }
 
 .Reddit {
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 50px; 
-  width: 160px;
   border-radius: 25px;
   background: linear-gradient( orangered, black); 
   color: snow; 
   font-size: 20px;
-  margin-left: 225px;
+  transition: padding 1s;
+}
+.Reddit:hover {
+  color: yellow;
+  background: linear-gradient( black, orangered); 
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .CodeCademy {
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 50px; 
-  width: 150px;
   border-radius: 25px;
   background: linear-gradient( rgb(180, 0, 135), black); 
   color: snow; 
   font-size: 20px;
+  transition: padding 1s;
+}
+.CodeCademy:hover {
+  color: yellow;
+  background: linear-gradient( black, rgb(180, 0, 135)); 
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .FreeCodeCamp {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 50px; 
-  width: 160px;
   border-radius: 25px;
   background: linear-gradient( rgb(0, 159, 180), black); 
   color: snow; 
   font-size: 20px;
+  transition: padding 1s;
+}
+.FreeCodeCamp:hover {
+  color: yellow;
+  background: linear-gradient( black, rgb(0, 159, 180)); 
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .W3Schools {
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 50px; 
-  width: 130px;
   border-radius: 25px;
   background: linear-gradient( rgb(0, 180, 90), black); 
   color: snow; 
   font-size: 20px;
+  transition: padding 1s;
 }
-
+.W3Schools:hover {
+  color: yellow;
+  background: linear-gradient( black, rgb(0, 180, 90)); 
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .MeritAmerica {
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 50px; 
-  width: 135px;
   border-radius: 25px;
   background: linear-gradient( rgb(117, 180, 0), black); 
   color: snow; 
   font-size: 20px;
+  transition: padding 1s;
 }
-
+.MeritAmerica:hover {
+  color: yellow;
+  background: linear-gradient( black, rgb(117, 180, 0)); 
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .SoloLearn {
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  height: 50px; 
-  width: 140px;
   border-radius: 25px;
   background: linear-gradient( rgb(180, 0, 54), black); 
   color: snow; 
   font-size: 20px;
+  transition: padding 1s;
 }
-
+.SoloLearn:hover {
+  color: yellow;
+  background: linear-gradient( black, rgb(180, 0, 54));
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 
 
 
 
 a.link {color: snow;}
-a.link:hover {cursor: pointer;}
+a.link:hover {cursor: pointer; color: yellow;}
